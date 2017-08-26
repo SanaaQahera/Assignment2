@@ -1,0 +1,13 @@
+    #include <iostream>
+    using namespace std;
+     
+    int main() {
+    	double days,years,weeks;
+    	cout <<"Enter the number of days\n";
+    	cin >>days;
+    	years = days/365;
+    	cout <<"The number of years is = "<<years <<endl;
+    	weeks = days/7;
+    	cout <<"The number of weeks is ="<<weeks;
+    	return 0;
+    }
