@@ -1,1 +1,11 @@
-
+    #include <iostream>
+    using namespace std;
+     
+    int main() {
+    	double Tc,Tf;
+    	cout <<"Enter temperature in Celsius\n";
+    	cin >>Tc;
+    	Tf = (Tc*1.8)+32;
+    	cout <<"Temperature in Farenheit is = "<<Tf <<"F";
+    	return 0;
+    }
