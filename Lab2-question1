@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	
+	double cm,m,km;
+	cout <<"Enter a value in centimeters\n";
+	cin >>cm;
+	m = cm/100;
+	cout <<"Your value in meters is = "<<m <<"m" <<endl;
+	km = cm/100000;
+	cout <<"Your value in kilometers is = "<<km <<"km";
+	
+	
+	
+	return 0;
+}
