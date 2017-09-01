@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	double sub1,sub2,sub3,sub4,sub5,avg,perc,tot;
+	cout <<"Enter marks in Physics\n";
+	cin >>sub1;
+	cout <<"Enter marks in Maths\n";
+	cin >>sub2;
+	cout <<"Enter marks in Biology\n";
+	cin >>sub3;
+	cout <<"Enter marks in Chemistry\n";
+	cin >>sub4;
+	cout <<"Enter marks in English\n";
+	cin >>sub5;
+	tot = sub1+sub2+sub3+sub4+sub5;
+	cout <<"The total is = "<<tot <<endl;
+	avg = tot/5;
+	cout <<"The average is = "<<avg <<endl;
+	perc = (tot/500)*100;//Maximum marks in each subject is 100.
+	cout <<"The percentage is = "<<perc <<" %";
+	return 0;
+}
