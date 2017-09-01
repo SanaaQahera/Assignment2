@@ -1,0 +1,19 @@
+    #include <iostream>
+    #include <cmath>
+    using namespace std;
+     
+    int main() {
+    	double P,T,R,CI,inbr,pw;
+    	cout <<"Enter the principal\n";
+    	cin >>P;
+    	cout <<"Enter the rate per annum\n";
+    	cin >>R;
+    	cout <<"Enter the time period\n";
+    	cin >>T;
+    	inbr = 1+(R/100);
+    	pw = pow(inbr,T);
+    	CI = P*pw;
+    	cout <<"The compound interest is = " <<CI;
+     
+    	return 0;
+    }
