@@ -1,0 +1,15 @@
+    #include <iostream>
+    using namespace std;
+     
+    int main() {
+               double P,T,R,SI;
+               cout <<"Enter the principal\n";
+               cin >>P;
+               cout <<"Enter the rate per annum\n";
+               cin >>R;
+               cout <<"Enter the time for which simple interest must be calculated\n";
+               cin >>T;
+               SI = (P*T*R)/100;
+               cout <<"The simple interest = " <<SI;
+    	return 0;
+    }
