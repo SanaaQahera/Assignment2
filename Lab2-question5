@@ -1,0 +1,16 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+	
+	int num,p,res;
+	cout <<"Enter a number\n";
+	cin >>num;
+	cout <<"Enter the power\n";
+	cin >>p;
+	res = pow(num,p);
+	cout <<"The result is = " <<res;
+	
+	return 0;
+}
