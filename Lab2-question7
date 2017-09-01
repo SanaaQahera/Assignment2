@@ -1,0 +1,11 @@
+    #include <iostream>
+    using namespace std;
+     
+    int main() {
+    	double ang1,ang2,ang3;
+    	cout <<"Enter two angles of a triangle\n";
+    	cin >>ang1>>ang2;
+    	ang3 = 180-(ang1+ang2);
+    	cout <<"The third angle is =" <<ang3 <<" degrees";
+    	return 0;
+    }
